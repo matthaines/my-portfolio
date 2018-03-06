@@ -1,4 +1,4 @@
-import 'react-dom'
+import 'react-dom';
 
 console.log("loaded react-dom ... testing ES6 ...");
 const arr = [1, 2, 3];

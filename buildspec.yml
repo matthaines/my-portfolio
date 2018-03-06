@@ -3,8 +3,9 @@ version: 0.1
 phases:
   build:
     commands:
+      - npm install npm -g
       - npm install
-      - npm run build
+      - npm run dev
 artifacts:
   files:
     - index.html
@@ -12,4 +13,4 @@ artifacts:
     - MattHainesResume.pdf
     - styles/main.css
     - images/*
-    - dist/bundle.js
+    - dist/main.js
