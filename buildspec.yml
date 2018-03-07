@@ -1,10 +1,12 @@
 version: 0.1
 
 phases:
-  build:
+  pre-build:
     commands:
       - npm install npm -g
       - npm install
+  build:
+    commands:
       - npm run dev
 artifacts:
   files:
